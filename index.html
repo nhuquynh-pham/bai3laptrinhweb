@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quán Ăn Samira</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <img src="image/logo.jpg" alt="Logo quán" />
+      </div>
+      <nav class="main-nav">
+        <a href="#">Trang chủ</a>
+        <a href="#menu">Thực đơn</a>
+        <a href="#news">Tin tức</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i><span>0 ₫</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner / Slide -->
+  <section class="banner-section">
+    <div class="banner-slider">
+      <img src="image/banner.jpg" alt="Banner 1" class="active" />
+    </div>
+  </section>
+
+  <div class="main-container">
+    <!-- Sidebar / Danh mục + sản phẩm bán chạy -->
+    <aside class="sidebar">
+      <div class="sidebar-section categories-box">
+        <h3>DANH MỤC SẢN PHẨM</h3>
+        <ul>
+          <li><i class="fa-solid fa-cookie"></i> Đồ ăn vặt</li>
+          <li><i class="fa-solid fa-moon"></i> Đồ ăn đêm</li>
+          <li><i class="fa-solid fa-mug-hot"></i> Đồ uống</li>
+        </ul>
+      </div>
+      <div class="sidebar-section bestseller-box">
+        <h3>SẢN PHẨM BÁN CHẠY</h3>
+        <div class="bestseller-list">
+          <div class="b-item">
+            <img src="image/an-vat-11.jpg" alt="Bán chạy 1" />
+            <div class="b-info">
+              <p>Bánh Tiramisu</p>
+              <span class="b-price">21,000 đ</span>
+            </div>
+          </div>
+          <div class="b-item">
+            <img src="image/an-vat-10.jpg" alt="Bán chạy 2" />
+            <div class="b-info">
+              <p>Trà Dâu Tây Nhiệt Đới</p>
+              <span class="b-price">17,000 đ</span>
+            </div>
+          </div>
+          <div class="b-item">
+            <img src="image/an-vat-5.jpg" alt="Bán chạy 3" />
+            <div class="b-info">
+              <p>Sữa Chua Thạch Trân Châu</p>
+              <span class="b-price">25,000 đ</span>
+            </div>
+          </div>
+          <div class="b-item">
+            <img src="image/kfc.jpg" alt="Bán chạy 4" />
+            <div class="b-info">
+              <p>Gà rán KFC</p>
+              <span class="b-price">67,000 đ</span>
+            </div>
+          </div>
+          <div class="b-item">
+            <img src="image/an-vat-4.jpg" alt="Bán chạy 5" />
+            <div class="b-info">
+              <p>Khoai tây chiên</p>
+              <span class="b-price">23,000 đ</span>
+            </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Nội dung chính: sản phẩm, tin tức, testimonial -->
+    <main class="content">
+      <!-- Đồ ăn vặt -->
+      <section id="menu" class="section-products">
+        <h2>ĐỒ ĂN VẶT</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <span class="discount-badge">-8%</span>
+            <img src="image/an-vat-4.jpg" alt="Khoai tây chiên" />
+            <div class="product-info">
+              <p class="prod-name">Khoai tây chiên</p>
+              <p class="prod-prices"><span class="old">25,000 đ</span> <span class="new">23,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <span class="discount-badge">-30%</span>
+            <img src="image/kfc.jpg" alt="Gà rán KFC" />
+            <div class="product-info">
+              <p class="prod-name">Gà rán KFC</p>
+              <p class="prod-prices"><span class="old">85,000 đ</span> <span class="new">67,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <span class="discount-badge">-20%</span>
+            <img src="image/an-vat-2.jpg" alt="Mì trộn xúc xích" />
+            <div class="product-info">
+              <p class="prod-name">Mì trộn xúc xích</p>
+              <p class="prod-prices"><span class="old">40,000 đ</span> <span class="new">32,000 đ</span></p>
+            </div>
+          </div>
+        <div class="product-card">
+            <span class="discount-badge">-15%</span>
+            <img src="image/an-vat-12.jpg" alt="Bánh tráng trộn" />
+            <div class="product-info">
+              <p class="prod-name">Bánh Tacos</p>
+              <p class="prod-prices"><span class="old">20,000 đ</span> <span class="new">17,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <span class="discount-badge">-10%</span>
+            <img src="image/an-vat-13.png" alt="Bánh tráng trộn" />
+            <div class="product-info">
+              <p class="prod-name">Lạp xưởng nướng đá</p>
+              <p class="prod-prices"><span class="old">30,000 đ</span> <span class="new">27,000 đ</span></p>
+            </div>
+        </div>
+          <div class="product-card">
+            <span class="discount-badge">-12%</span>
+            <img src="image/an-vat-14.png" alt="Sữa chua mít" />
+            <div class="product-info">
+              <p class="prod-name">Sữa chua mít</p>
+              <p class="prod-prices"><span class="old">30,000 đ</span> <span class="new">26,500 đ</span></p>
+            </div>
+          </div>
+      </section>
+
+      <!-- Đồ ăn đêm -->
+      <section class="section-products">
+        <h2>ĐỒ ĂN ĐÊM</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="image/hotdog.jpg" alt="Hotdog" />
+            <div class="product-info">
+              <p class="prod-name">Hotdog</p>
+              <p class="prod-prices"><span class="new">22,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/hamburger.jpg" alt="Hamburger" />
+            <div class="product-info">
+              <p class="prod-name">Hamburger</p>
+              <p class="prod-prices"><span class="new">35,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/an-vat-3.jpg" alt="Nem chua rán" />
+            <div class="product-info">
+              <p class="prod-name">Nem chua rán</p>
+              <p class="prod-prices"><span class="new">30,000 đ</span></p>
+          </div>
+        </div>
+        <div class="product-card">
+            <img src="image/an-dem-1.jpg" alt="Mì ý" />
+            <div class="product-info">
+              <p class="prod-name">Bánh gà chiên</p>
+              <p class="prod-prices"><span class="new">40,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/an-dem-2.jpg" alt="Bánh mì kẹp thịt" />
+            <div class="product-info">
+              <p class="prod-name">Xúc xích chiên</p>
+              <p class="prod-prices"><span class="new">20,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/an-dem-3.jpg" alt="Bánh bao" />
+            <div class="product-info">
+              <p class="prod-name">Bánh tráng nướng</p>
+              <p class="prod-prices"><span class="new">10,000 đ</span></p>
+            </div>
+      </section>
+
+      <!-- Đồ uống -->
+      <section class="section-products">
+        <h2>ĐỒ UỐNG</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="image/do-uong-1.jpg" alt="Trà sữa matcha" />
+            <div class="product-info">
+              <p class="prod-name">Trà sữa matcha</p>
+              <p class="prod-prices"><span class="new">25,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/do-uong-2.jpg" alt="Nước ép cà rốt" />
+            <div class="product-info">
+              <p class="prod-name">Nước ép cà rốt</p>
+              <p class="prod-prices"><span class="new">20,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/do-uong-3.jpg" alt="Trà hoa quả" />
+            <div class="product-info">
+              <p class="prod-name">Trà hoa quả</p>
+              <p class="prod-prices"><span class="new">18,000 đ</span></p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="image/do-uong-4.jpg" alt="Trà sữa trân châu" />
+            <div class="product-info">
+              <p class="prod-name">Trà sữa kem trứng nướng</p>
+              <p class="prod-prices"><span class="new">32,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/do-uong-5.jpg" alt="Trà đào xí muội" />
+            <div class="product-info">
+              <p class="prod-name">Sữa chua mít</p>
+              <p class="prod-prices"><span class="new">16,000 đ</span></p>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="image/do-uong-6.jpg" alt="Cafe muối" />
+            <div class="product-info">
+              <p class="prod-name">Trà đào cam sả</p>
+              <p class="prod-prices"><span class="new">20,000 đ</span></p>
+            </div>
+      </section>
+      <!-- Ý kiến khách hàng -->
+<section class="section-testimonial">
+  <div class="container">
+    <h2>Ý KIẾN KHÁCH HÀNG</h2>
+    <div class="testimonial-list">
+      <div class="testimonial-item">
+        <img src="image/khach-hang-1.jpg" alt="Khách hàng 1" />
+        <p class="test-name">Khách Hàng</p>
+        <p class="test-text">“Tôi thường xuyên đặt món ăn ở đây... đồ ăn rất ngon.”</p>
+      </div>
+      <div class="testimonial-item">
+        <img src="image/khach-hang-2.jpg" alt="Khách hàng 2" />
+        <p class="test-name">Khách Hàng 2</p>
+        <p class="test-text">“Mỗi khi tụ tập là chúng tôi lại gọi quán... ship nhanh.”</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tin tức khuyến mãi -->
+<section id="news" class="section-news">
+  <div class="container">
+    <h2>TIN TỨC KHUYẾN MẠI</h2>
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="image/tin-tuc-1.jpg" alt="News 1" />
+        <p>10 món ăn vặt khoái khẩu mùa hè</p>
+      </div>
+      <div class="news-card">
+        <img src="image/tin-tuc-2.jpg" alt="News 2" />
+        <p>Các món ăn vặt mùa đông giá chỉ từ 10k</p>
+      </div>
+      <div class="news-card">
+        <img src="image/tin-tuc-3.jpg" alt="News 3" />
+        <p>Những món ăn vặt tại Vinh mùa đông</p>
+      </div>
+      <div class="news-card">
+        <img src="image/tin-tuc-4.jpg" alt="News 4" />
+        <p>21 món ăn mới lạ ở Vinh đảm bảo no quên lối về</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+  </div>
+  <footer class="footer">
+  <div class="container-footer">
+    <!-- Cột 1 -->
+    <div class="footer-col">
+      <img src="image/logo.jpg" alt="Quynh Food Logo" class="footer-logo">
+      <p>Quỳnh Food chuyên cung cấp đồ ăn vặt và nước uống, đảm bảo chất lượng, 
+         giao hàng nhanh chóng và uy tín.</p>
+    </div>
+
+    <!-- Cột 2 -->
+    <div class="footer-col">
+      <h3>Liên hệ</h3>
+      <ul>
+        <li><strong>Quỳnh Food</strong></li>
+        <li><i class="fa-solid fa-location-dot"></i> 182 Lê Duẩn, Bến Thủy, Vinh, Nghệ An</li>
+        <li><i class="fa-solid fa-phone"></i> 0325.315.645</li>
+        <li><i class="fa-solid fa-envelope"></i> quynhfood@gmail.com</li>
+      </ul>
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Cột 3 -->
+    <div class="footer-col">
+      <h3>Về chúng tôi</h3>
+      <ul>
+        <li><a href="#">Lịch sử hình thành</a></li>
+        <li><a href="#">Tầm nhìn - Sứ mệnh</a></li>
+        <li><a href="#">Sơ đồ tổ chức</a></li>
+        <li><a href="#">Câu chuyện thương hiệu</a></li>
+        <li><a href="#">Các giải thưởng</a></li>
+        <li><a href="#">Cơ hội nghề nghiệp</a></li>
+      </ul>
+    </div>
+
+    <!-- Cột 4 -->
+    <div class="footer-col">
+      <h3>Chính Sách</h3>
+      <ul>
+        <li><a href="#">Hướng dẫn mua hàng</a></li>
+        <li><a href="#">Quy định và hình thức thanh toán</a></li>
+        <li><a href="#">Chính sách giao hàng</a></li>
+        <li><a href="#">Chính sách đổi trả</a></li>
+        <li><a href="#">Chính sách bảo mật thông tin</a></li>
+        <li><a href="#">Giao hàng siêu tốc</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright 2025 © Quỳnh Food | Thiết kế bởi bạn 🧡</p>
+  </div>
+</footer>
+</body>
+</html>
