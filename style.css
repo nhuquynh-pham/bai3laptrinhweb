@@ -11,82 +11,89 @@ body {
   color: #333;
   line-height: 1.5;
 }
-
-/* Header */
-/* Header */
+/* Header chung */
 .site-header {
-  background: #ff5050;
-  color: #fff;
-  padding: 0px 20px;
+  background: #8B0000; /* đỏ như ảnh */
+  color: #8B0000;
+  font-family: Arial, sans-serif;
 }
 
-/* Container bên trong */
-.header-inner {
-  max-width: 1200px;
-  margin: auto;
+.top-header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* logo trái - menu phải */
+  justify-content: space-between;
+  padding: 8px 20px;
 }
 
-/* Logo */
 .logo img {
-  height: 70px;   /* chỉnh chiều cao logo ở đây */
-  width: auto;    /* tự co theo tỉ lệ */
+  height: 60px;
+  border-radius: 5px;
 }
 
-/* Menu */
-.menu ul {
-  list-style: none;
+/* Search */
+.search-bar {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 20px;
   display: flex;
-  gap: 25px;  /* khoảng cách giữa các mục */
-  margin: 0;
-  padding: 0;
 }
 
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
+.search-bar input {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
 }
 
-.menu a:hover {
-  color: #ffd700; /* đổi màu khi hover */
+.search-bar button {
+  background: #f6f3f3;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 
-
-.main-nav a {
-  color: #fff;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.main-nav a:hover {
-  text-decoration: underline;
-}
-
-.cart-icon {
-  background: #fff;
-  color: #ff4d4d;
-  padding: 6px 12px;
-  border-radius: 20px;
+/* Actions */
+.header-actions a {
+  color: #f6f4f4;
+  margin-left: 15px;
   font-size: 14px;
   text-decoration: none;
+}
+
+.header-actions i {
+  margin-right: 5px;
+}
+
+/* Menu dưới */
+.main-nav {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.main-nav a {
+  color: #000;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  color: #f9423a;
 }
 
 /* Banner */
 .banner-section {
   width: 100%;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 
 .banner-slider img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   display: block; /* luôn hiển thị */
 }
